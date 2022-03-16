@@ -16,6 +16,9 @@
     "npm": "^8.5.4",
     "sqlite3": "5.0.2"
   },
+  "optionalDependencies": {
+    "fsevents": "*"
+  },
   "author": {
     "name": "A Strapi developer"
   },
