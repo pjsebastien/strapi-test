@@ -13,7 +13,7 @@ module.exports = {
       host: "51.254.116.139",
       ref: "origin/main",
       repo: "https://github.com/pjsebastien/strapi-test.git",
-      path: "/home/ubuntu",
+      path: "/home/ubuntu/strapi-test",
       "pre-deploy-local": "",
       "post-deploy":
         "npm install && pm2 reload ecosystem.config.js --env production",
